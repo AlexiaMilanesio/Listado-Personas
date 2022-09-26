@@ -1,0 +1,1 @@
+{"ast":null,"code":"export class LoggingService {\n  enviaMensajeAConsola(mensaje) {\n    console.log(mensaje);\n  }\n\n}","map":null,"metadata":{},"sourceType":"module"}

@@ -1,0 +1,12 @@
+<div class="box">
+    <form class="item" #f="ngForm" (ngSubmit)="f.form.valid && login(f)">
+        <div>
+            <!-- Poniendo solamente ngModel manejamos el concepto de Two Way Binding. Así lo asociamos automáticamente al atributo de name='email' -->
+            <input type="email" name="email" placeholder="Email" ngModel required size="20" />
+        </div>
+        <div>
+            <input type="password" name="password" placeholder="Password" ngModel required size="15" />
+        </div>
+        <button type="submit" style="cursor: pointer;">+</button>
+    </form>
+</div>
